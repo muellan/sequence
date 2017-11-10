@@ -4,7 +4,7 @@
  *
  * released under MIT license
  *
- * 2008-2016 André Müller
+ * 2008-2017 André Müller
  *
  *****************************************************************************/
 
@@ -22,11 +22,10 @@
 namespace am {
 
 
-/*****************************************************************************
- *
- * v(n) = scale * ratio^n,  for scale > 1, n with v(n) <= bound
- * v(n) = scale * ratio^n,  for scale < 1, n with v(n) >= bound
- *
+/*************************************************************************//***
+ * @brief geometric sequence:
+ *        v(n) = scale * ratio^n,  for scale > 1, n with v(n) <= bound
+ *        v(n) = scale * ratio^n,  for scale < 1, n with v(n) >= bound
  *
  *****************************************************************************/
 template<class T>
@@ -182,10 +181,6 @@ private:
 
 
 
-
-
-
-
 /*****************************************************************************
  *
  *
@@ -215,10 +210,6 @@ inline decltype(auto)
 cend(const geometric_sequence<T>& s) {
     return s.end();
 }
-
-
-
-
 
 
 

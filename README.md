@@ -47,5 +47,5 @@ auto Sequence::end();    //one after the last value
 
 ## Requirements
 Requires C++14 conforming compiler.
-Tested with g++ 5.3.1
+Tested with g++ 6.1
 
